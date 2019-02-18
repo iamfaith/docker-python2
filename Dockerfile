@@ -1,13 +1,6 @@
-# Python2 for Debian jessie
-#
-# URL: https://github.com/William-Yeh/docker-python2
-#
-# Version     0.1.1
-#
-
 # pull base image
-FROM debian:jessie
-MAINTAINER William Yeh <william.pjyeh@gmail.com>
+FROM xianzixiang/xenial
+MAINTAINER faith
 
 
 
