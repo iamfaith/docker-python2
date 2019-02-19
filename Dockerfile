@@ -26,6 +26,3 @@ RUN apt-get update -y  && \
 # for convenience
 RUN date '+%Y-%m-%dT%H:%M:%S%:z' > /var/log/DOCKER_BUILD_TIME
 
-
-# Define default command.
-CMD ["python", "--version"]
